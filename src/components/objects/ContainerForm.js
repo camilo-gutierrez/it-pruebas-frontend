@@ -1,6 +1,6 @@
 import Form from "../molecules/Form";
 import { ContainerFormStyle } from "../styles";
-import Menu from "./Menu";
+import Menu from "../molecules/Menu";
 
 
 export default function ContainerForm() {
