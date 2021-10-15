@@ -115,6 +115,9 @@ export const FormStyle = styled.form`
         background: #99a09d;
         padding: 2em;
     }   
+    @media (max-width: 370px){
+        padding: 1.8em;
+    }   
 `
 
 // objects
@@ -149,7 +152,14 @@ export const MenuStyle = styled.div`
         border-bottom-left-radius: 0em;
         border-bottom-right-radius: 0em;
         margin: 32px 34px 0 34px;
-    }  
+    } 
+     @media (max-width: 750px){
+        width: 83%;
+    } 
+    @media (max-width: 450px){
+        width: 84%;
+    } 
+
 `
 export const ContainerFormStyle = styled.div`
     margin: 34px 34px 34px 0;
@@ -187,5 +197,6 @@ export const ContainerStyle = styled.div`
         top: 0;
         left: 0;
         right: 0;
+        overflow: scroll;
        } 
 `

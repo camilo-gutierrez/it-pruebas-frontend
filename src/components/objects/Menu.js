@@ -37,7 +37,7 @@ let json = {
     },
     {
       id: "4",
-      name: "vueloBarato",
+      name: "vuelo",
     },
     {
       id: "5",
@@ -45,19 +45,19 @@ let json = {
     },
     {
       id: "6",
-      name: "fly-red",
+      name: "viajar",
     },
     {
       id: "7",
-      name: "black-fly",
+      name: "air",
     },
     {
       id: "8",
-      name: "vuelosVerdes",
+      name: "airport",
     },
     {
       id: "9",
-      name: "red-air",
+      name: "aero",
     },
   ],
 };
