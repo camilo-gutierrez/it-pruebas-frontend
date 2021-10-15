@@ -29,16 +29,11 @@ export const LiStyle = styled.li`
      align-content: center;
      flex-direction: column;
      position: relative;
+     cursor: pointer;
         @media(max-width: 920px){
-          font-size: 25px; 
           display: inline;
-          width: max-content;
           margin: .5rem;
-          padding: .5rem;
-          align-items: center;
-          align-content: center;
           flex-direction: row;
-          position: relative;
         }
 `
 
@@ -78,6 +73,10 @@ export const DrawerContent = styled.div`
         padding: 1em;
         position: absolute;
       }
+      @media(max-width: 920){
+        width: 15;
+        height: 7.5em;
+      }
 `
 
 // Molecules
@@ -103,17 +102,11 @@ export const FormStyle = styled.form`
     background: #99a09d;
     padding: 2em;
      @media (max-width: 920px){
-        display: flex;
         width: 80%;
         border-radius: 2em;
         border-top-left-radius: 0em;
         border-top-right-radius: 0em;
-        justify-content: flex-end;
-        align-items: center;
-        flex-direction: column;
         height: auto 100%;
-        background: #99a09d;
-        padding: 2em;
     }   
     @media (max-width: 370px){
         padding: 1.8em;
@@ -187,12 +180,8 @@ export const ContainerStyle = styled.div`
     justify-content: center;
     font-family: sans-serif;
       @media(max-width: 920px){
-        display: flex;
-        width: 100%;
         height: 100%;
-        justify-content: center;
         flex-direction: column;
-        position: fixed;
         bottom: 0;
         top: 0;
         left: 0;

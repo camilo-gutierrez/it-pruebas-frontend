@@ -33,31 +33,31 @@ let json = {
     },
     {
       id: "3",
-      name: "vuela",
+      name: "Vuela",
     },
     {
       id: "4",
-      name: "vuelo",
+      name: "Vuelo",
     },
     {
       id: "5",
-      name: "fly",
+      name: "Fly",
     },
     {
       id: "6",
-      name: "viajar",
+      name: "Viajar",
     },
     {
       id: "7",
-      name: "air",
+      name: "Air",
     },
     {
       id: "8",
-      name: "airport",
+      name: "Airport",
     },
     {
       id: "9",
-      name: "aero",
+      name: "Aero",
     },
   ],
 };
